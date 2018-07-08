@@ -16,7 +16,9 @@ export default props => {
         <iframe className="embed-responsive-item" src={url} />
       </div>
       <div className="details">
-        <div>{video.snippet.title}</div>
+        <div>
+          <strong>{video.snippet.title}</strong>
+        </div>
         <div>{video.snippet.description}</div>
       </div>
     </div>
